@@ -1,132 +1,14 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pakistan News Hub</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body{
-      margin:0;
-      font-family:Arial;
-      background:#f4f6f8;
-      color:#222;
-    }
-
-    header{
-      background:#006400;
-      color:white;
-      padding:18px;
-      text-align:center;
-    }
-
-    header h1{
-      margin:0;
-      font-size:28px;
-    }
-
-    nav{
-      background:#0b3d0b;
-      display:flex;
-      justify-content:center;
-      flex-wrap:wrap;
-    }
-
-    nav a{
-      color:white;
-      padding:12px 14px;
-      text-decoration:none;
-      font-size:14px;
-    }
-
-    nav a:hover{
-      background:#006400;
-    }
-
-    .breaking{
-      background:red;
-      color:white;
-      padding:10px;
-      text-align:center;
-      font-weight:bold;
-    }
-
-    .hero{
-      background:white;
-      margin:15px auto;
-      width:90%;
-      max-width:1100px;
-      padding:20px;
-      border-radius:10px;
-      box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    .hero h2{
-      margin:0;
-      color:#006400;
-    }
-
-    .grid{
-      width:90%;
-      max-width:1100px;
-      margin:auto;
-      display:grid;
-      grid-template-columns:2fr 1fr;
-      gap:20px;
-    }
-
-    .card{
-      background:white;
-      padding:15px;
-      border-left:5px solid #006400;
-      margin-bottom:15px;
-      border-radius:8px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.05);
-    }
-
-    .section-title{
-      font-weight:bold;
-      margin:10px 0;
-      color:#006400;
-    }
-
-    .categories{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-      gap:10px;
-      margin-top:20px;
-    }
-
-    .cat{
-      background:white;
-      padding:15px;
-      text-align:center;
-      border-radius:10px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
-      font-weight:bold;
-    }
-
-    .sidebar{
-      background:white;
-      padding:15px;
-      border-radius:10px;
-      box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    footer{
-      text-align:center;
-      background:#0b3d0b;
-      color:white;
-      padding:15px;
-      margin-top:20px;
-    }
-
-    @media(max-width:768px){
-      .grid{
-        grid-template-columns:1fr;
-      }
-    }
+    body {font-family: Arial; margin:0; background:#f4f6f8;}
+    header {background:green; color:white; padding:15px; text-align:center;}
+    nav {background:#0b3d0b; text-align:center; padding:10px;}
+    nav a {color:white; margin:10px; text-decoration:none;}
+    .box {background:white; margin:15px; padding:15px; border-radius:8px;}
   </style>
 </head>
 
@@ -134,7 +16,7 @@
 
 <header>
   <h1>🇵🇰 Pakistan News Hub</h1>
-  <p>Truth • Updates • Entertainment • Sports</p>
+  <p>Latest News Updates</p>
 </header>
 
 <nav>
@@ -143,67 +25,20 @@
   <a href="contact.html">Contact</a>
 </nav>
 
-<div class="breaking">
-  🔴 Breaking News: Pakistan latest updates and national developments
+<div class="box">
+  <h2>Breaking News</h2>
+  <p>Welcome to your news website.</p>
 </div>
 
-<div class="hero">
-  <h2>🔥 Featured News</h2>
-  <p>Welcome to Pakistan News Hub — your trusted source for latest news in politics, sports, education and entertainment.</p>
+<div class="box">
+  <h2>Sports</h2>
+  <p>Latest sports updates.</p>
 </div>
 
-<div class="grid">
-
-  <div>
-
-    <div class="section-title">📰 Latest News</div>
-
-    <div class="card">
-      <h3>Politics Update</h3>
-      <p>Government announces new reforms and national policies.</p>
-    </div>
-
-    <div class="card">
-      <h3>Sports Update</h3>
-      <p>PSL and international cricket updates from Pakistan team.</p>
-    </div>
-
-    <div class="card">
-      <h3>🎬 Entertainment</h3>
-      <p>Latest dramas, movies and celebrity news from Pakistan showbiz.</p>
-    </div>
-
-    <div class="card">
-      <h3>🎓 Education</h3>
-      <p>Exam results, scholarships and student opportunities updates.</p>
-    </div>
-
-  </div>
-
-  <div class="sidebar">
-
-    <div class="section-title">🔥 Trending</div>
-    <p>• Cricket news</p>
-    <p>• New dramas</p>
-    <p>• Tech updates</p>
-
-    <div class="section-title">📌 Categories</div>
-    <div class="categories">
-      <div class="cat">Politics</div>
-      <div class="cat">Sports</div>
-      <div class="cat">Tech</div>
-      <div class="cat">World</div>
-      <div class="cat">Education</div>
-      <div class="cat">Entertainment</div>
-    </div>
-
-  </div>
-
+<div class="box">
+  <h2>Entertainment</h2>
+  <p>Drama and celebrity news.</p>
 </div>
-
-<footer>
-  <p>© 2026 Pakistan News Hub | Built for Information & Awareness</p>
-</footer>
 
 </body>
 </html>
